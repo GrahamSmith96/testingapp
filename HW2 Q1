@@ -1,0 +1,13 @@
+import numpy as np
+
+def make_one_versus_all_labels(self, y, m):
+        """
+		y : numpy array of shape (n,)
+		m : int (in this homework, m will be 10)
+		returns : numpy array of shape (n,m)
+		"""
+a = np.full(len(y), m, -1)
+for i in range(y):
+    # = y[i]
+    a[i][#] = 1
+      return a
